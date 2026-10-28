@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.spillmark/spillmark",
   "title": "Spillmark",
-  "description": "Free Amazon and Meta ads calculators, plus a brand's own holdout-test lift, test plans and locked predictions with a read-only key.",
+  "description": "Free Amazon and Meta ads calculators; brand lift and test plans with a read-only key.",
   "version": "1.0.1",
   "websiteUrl": "https://spillmark.com/agents",
   "repository": {
@@ -16,7 +16,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional. 'Bearer sm_…' from Settings → Agent access, for a brand's own results. Public tools need no key.",
+          "description": "Optional. 'Bearer sm_\u2026' from Settings \u2192 Agent access, for a brand's own results. Public tools need no key.",
           "isRequired": false,
           "isSecret": true
         }
