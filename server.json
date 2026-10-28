@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.spillmark/spillmark",
+  "title": "Spillmark",
+  "description": "Free Amazon and Meta ads calculators, plus a brand's own holdout-test lift, test plans and locked predictions with a read-only key.",
+  "version": "1.0.1",
+  "websiteUrl": "https://spillmark.com/agents",
+  "repository": {
+    "url": "https://github.com/burmanharry/spillmark-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spillmark.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. 'Bearer sm_…' from Settings → Agent access, for a brand's own results. Public tools need no key.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
