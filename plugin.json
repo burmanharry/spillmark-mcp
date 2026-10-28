@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "spillmark",
+  "version": "1.0.1",
+  "description": "Free Amazon and Meta ads calculators; optional read-only brand lift and holdout test plans.",
+  "author": {
+    "name": "Harry Burman",
+    "email": "harry@spillmark.com",
+    "url": "https://spillmark.com"
+  },
+  "homepage": "https://spillmark.com",
+  "repository": "https://github.com/burmanharry/spillmark-mcp",
+  "license": "MIT",
+  "keywords": ["amazon", "meta-ads", "roas", "holdout", "marketing", "mcp"]
+}
