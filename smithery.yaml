@@ -1,0 +1,20 @@
+# Smithery configuration for Spillmark (remote Streamable HTTP MCP).
+# Schema pattern from public remote examples (e.g. deficlow/zipp-mcp).
+# Cosmetic metadata (display name, long description, tags) is edited in the
+# Smithery web panel after publish: https://smithery.ai
+#
+# Public calculators need no key. An optional brand key is sent as
+# Authorization: Bearer sm_... and is not required to connect.
+# Live probe 2026-11-05 (America/Los_Angeles): https://spillmark.com/mcp answers initialize.
+
+name: spillmark
+target: remote
+
+startCommand:
+  type: streamableHttp
+  url: https://spillmark.com/mcp
+  configSchema:
+    type: object
+    properties: {}
+    additionalProperties: false
+  exampleConfig: {}

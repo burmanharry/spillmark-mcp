@@ -1,0 +1,11 @@
+{
+  "name": "spillmark",
+  "version": "1.0.1",
+  "description": "Read-only Amazon seller profit, fee, ACoS, TACoS and holdout calculators over MCP. Ads API write tools are on the roadmap.",
+  "mcpServers": {
+    "spillmark": {
+      "url": "https://spillmark.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
