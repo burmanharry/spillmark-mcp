@@ -2,14 +2,14 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "spillmark",
   "version": "1.0.1",
-  "description": "Free Amazon and Meta ads calculators; optional read-only brand lift and holdout test plans.",
+  "description": "Spillmark's MCP server at https://spillmark.com/mcp is read-only today. Public Amazon profit, referral/FBA fee, ACoS, TACoS, and geo-holdout calculators require no key. An optional sm_... brand key reads a brand's own profit and incrementality record. Amazon Ads API write tools are on the roadmap.",
   "author": {
     "name": "Harry Burman",
     "email": "harry@spillmark.com",
     "url": "https://spillmark.com"
   },
-  "homepage": "https://spillmark.com",
+  "homepage": "https://spillmark.com/uses/amazon-ads-mcp",
   "repository": "https://github.com/burmanharry/spillmark-mcp",
   "license": "MIT",
-  "keywords": ["amazon", "meta-ads", "roas", "holdout", "marketing", "mcp"]
+  "keywords": ["amazon", "amazon-ads", "fees", "acos", "tacos", "geo-holdout", "incrementality", "mcp"]
 }
